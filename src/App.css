@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.custom-select{
+  background-color: #FFF;
+}
+.bp3-popover-wrapper > .bp3-popover-target{
+  width: 460px;
+  background-color: deepskyblue;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.bp3-multi-select-tag-input-input{
+  font-size: 20px;
+
+}
+.bp3-tag-input .bp3-tag-input-values > * {
+  margin-bottom: 21px;
+
+}
+.bp3-dark .bp3-menu {
+  background: #30404d;
+  color: #000000;
+}
+.bp3-dark .bp3-menu-item{
+  color: #000 !important;
+}
+.bp3-menu{
+  width: 460px;
+}
+.bp3-popover-arrow{
+  left: 420px !important;
+    top: -11px;
+}
+.black-text{
+  color: #000;
+}
+.bp3-popover.bp3-dark, .bp3-dark .bp3-popover{
+  box-shadow: none !important;
+}
